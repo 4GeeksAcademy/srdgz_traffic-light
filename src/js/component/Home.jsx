@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 //create your first component
 const Home = () => {
-	const [ selectedColor, setSelectedColor ] = useState('red');
+	const [ selectedColor, setSelectedColor ] = useState();
 	return (
 		<div className='trafficTop d-flex flex-column flex-wrap align-content-center justify-content-center align-items-center bg-dark m-auto'>
 			<div className='main d-inline-block bg-dark p-3 rounded'>
