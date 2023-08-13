@@ -26,6 +26,12 @@
     background: green;
 }
 
+.purple {
+    background: purple;
+    margin-top: 10px;
+    display: none;
+}
+
 .glow {
     box-shadow: 0px 0px 9px 4px lightyellow;
 }
