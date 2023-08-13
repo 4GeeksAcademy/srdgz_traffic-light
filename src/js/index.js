@@ -7,12 +7,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/Home.jsx";
-import Button from "./component/Button";
 
 //render your react application
 ReactDOM.render(
-    <>
-        <Home />
-        <Button />
-    </>,
+        <Home />,
     document.querySelector("#app"));
